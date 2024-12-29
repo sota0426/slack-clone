@@ -1,0 +1,8 @@
+12.29 1st day
+
+/auth with github , google and email
+/[npm run dev],[bunx convex dev]
+
+what i learned
+/how to root website
+/how to auth 
