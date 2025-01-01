@@ -2,15 +2,24 @@
 
 /auth with github , google and email
 /[npm run dev],[bunx convex dev]
+/chadcnをbunでインストールするのが難しい。
+/npmを用いてインストールする。
 
 what i learned
 /how to root website
 /how to auth 
+/convexの使い方を学ぶ。
 
 12.30
-//jotaiがうまくいく
+//jotaiがうまく
+    //[use client]のところを[use Client]としててこずる。
 //workspace が作成
 // 2:38:25
 
 12.31
+//sidebar components
+    //sidebar workspace-switcher
+        [DropdownTrigger > Button] が、button in button になりエラーが起きる。
+        <DropdownTrigger aschild>を用いることで回避できた。
 
+        なんと、3:30:21にてエラーの解説がある
