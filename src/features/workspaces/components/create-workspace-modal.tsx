@@ -15,6 +15,7 @@ import { useRouter } from "next/navigation";
 export const CreateWorkspaceModal =()=>{
     const router = useRouter();
     const [open , setOpen ]= useCreateWorkspaceModal();
+    
     const [name , setName] = useState("")
 
     const {mutate,isPending} = useCreateWorkspace();
@@ -30,7 +31,7 @@ export const CreateWorkspaceModal =()=>{
         mutate({name},{
             onSuccess(id){
                 toast.success("Workspace created");
-                router.push(`/workspece/${id}`)
+                router.push(`/workspace/${id}`)
                 handleClose();
             }
         })
