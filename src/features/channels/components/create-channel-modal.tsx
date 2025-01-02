@@ -11,8 +11,11 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { useCreateChanel } from "../api/use-create-channel";
 import { useWorkspaceId } from "@/hooks/use-workspace-id";
+import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 
 export const CreateChannelModal =()=>{
+  const router = useRouter();
   const workspaceId = useWorkspaceId();
   const [ open , setOpen ] = useCreateChannelModal();
   const {mutate , isPending } = useCreateChanel();
@@ -35,9 +38,13 @@ export const CreateChannelModal =()=>{
       {name , workspaceId},
       {
         onSuccess:(id)=>{
-          //TODO:redirect to new Channel
+          toast.error("channel created")
+          router.push(`/workspace/${workspaceId}/channel/${id}`)
           handleClose();
 
+        },
+        onError:()=>{
+          toast.error("Failed to create a channel")
         }
       }
     )
@@ -58,7 +65,7 @@ export const CreateChannelModal =()=>{
             onChange={handleChange}
             required
             autoFocus
-            minLength={3}
+            minLength={2}
             maxLength={80}
             placeholder="e.g. plan-budget"
           />

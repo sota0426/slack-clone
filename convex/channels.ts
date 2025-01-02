@@ -23,7 +23,7 @@ export const create = mutation({
       .unique();
 
       if(!member || member.role !== "admin"){
-        throw new Error("Unauthorized")
+        throw new Error("Unauthorized or not admin")
       }
     
       const parsedName = args.name
