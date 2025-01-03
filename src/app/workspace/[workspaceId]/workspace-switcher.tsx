@@ -19,7 +19,7 @@ export const WorkspaceSwitcher =()=>{
     
     const [ , setOpen ]= useCreateWorkspaceModal();
 
-    const {data:workspaces, isLoading : workspacesLoading} = useGetWorkspaces();
+    const {data:workspaces} = useGetWorkspaces();
     const {data:workspace , isLoading : workspaceLoading}= useGetWorkspace({id:workspaceId})
 
     const filteredWorkspaces = workspaces?.filter(

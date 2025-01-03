@@ -23,7 +23,7 @@ import {
     return(
         <TooltipProvider>
             <Tooltip delayDuration={50}>
-                <TooltipTrigger>
+                <TooltipTrigger asChild>
                     {children}
                 </TooltipTrigger>
                 <TooltipContent side={side} align={align} className="bg-black text-white border border-white/5">
