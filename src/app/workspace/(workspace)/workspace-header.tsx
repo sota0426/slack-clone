@@ -9,8 +9,8 @@ import {
 import { Doc } from "../../../../convex/_generated/dataModel"
 import { ChevronDown , ListFilter, SquarePen } from "lucide-react"
 import { Hint } from "@/components/hint"
-import { PreferencesModal } from "./preferences-modal"
-import { InviteModal } from "./invite-modal"
+import { PreferencesModal } from "../(other-item)/preferences-modal"
+import { InviteModal } from "../(other-item)/invite-modal"
 import { useState } from "react"
 
 interface WorkspaceHeaderProps{

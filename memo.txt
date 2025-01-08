@@ -1,3 +1,8 @@
+"Build a Real-Time Slack Clone With Nextjs, React, Tailwind, Auth.js | Part 1/2 (2024)"
+https://youtu.be/lXITA5MZIiI?si=2GlbsZPKsOfNXuXc
+
+2024
+
 12.29 1st day
 
 /auth with github , google and email
@@ -24,7 +29,13 @@ what i learned
 
         なんと、3:30:21にてエラーの解説がある
 
-
+2025
 1/2
 //workspace join page
 順調に進む。
+
+1/3
+//youtube #1 completed
+EditorにおけるuseRef,Quillが初めて出てくる。まだ理解できていない。
+
+Hintにおいて、ハイドレーションエラーはすべてDropdownTrigger にas childをつけていないせいにある。

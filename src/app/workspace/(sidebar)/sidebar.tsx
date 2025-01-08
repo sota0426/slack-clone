@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation";
 
 import { UserButton } from "@/features/auth/components/user-button";
 
-import { WorkspaceSwitcher } from "./workspace-switcher";
+import { WorkspaceSwitcher } from "../(workspace)/workspace-switcher";
 import { SidebarButton } from "./sidebar-button";
 
 

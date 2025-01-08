@@ -9,9 +9,9 @@ import { useCreateChannelModal } from "@/features/channels/store/use-create-chan
 import { useWorkspaceId } from "@/hooks/use-workspace-id"
 
 import { WorkspaceHeader } from "./workspace-header";
-import { SidebarItem } from "./sidebar-item";
+import { SidebarItem } from "../(sidebar)/sidebar-item";
 import { WorkspaceSection } from "./workspace-section";
-import { UserItem } from "./user-item";
+import { UserItem } from "../(other-item)/user-item";
 import { useChannelId } from "@/hooks/use-channel-id";
 
 export const WorkspaceSidebar =()=>{
