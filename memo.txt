@@ -44,3 +44,8 @@ Hintにおいて、ハイドレーションエラーはすべてDropdownTrigger 
 1:03:37
 imageのアップロードを完了
 fetch(url{})でconvexのファイルにアップロードするメソッドを覚える
+
+1/12
+1:49:50
+message get apiを完了
+paginationOptsValidatorというのがいまいち理解できなかった
