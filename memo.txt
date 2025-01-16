@@ -49,3 +49,7 @@ fetch(url{})でconvexのファイルにアップロードするメソッドを�
 1:49:50
 message get apiを完了
 paginationOptsValidatorというのがいまいち理解できなかった
+
+1/13
+part1 channel headerを完成していないことに気づく7:18:54
+part2 DMs feature 4:58:08
