@@ -35,7 +35,6 @@ export const Conversation=({id}:ConversationProps)=>{
         memberImage={member?.user.image}
         onClick={()=>{}}
       />
-      {id}
       <MessageList 
         data={results}
         variant="conversation"
